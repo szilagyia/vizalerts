@@ -16,13 +16,13 @@ Használat során felmerülhetnek az email kiküldéssel kapcsolatos változtat�
 
 ## Advanced Alert beállításai
 
-Egy _alert_et két dolog határoz meg: 
+Egy *alert*et két dolog határoz meg: 
 
 - egy Tableau Serverre publikált _view_ (_trigger view_)
 - egy _subscription_ egy _disabled_ _Subscription Schedule_-ra
-  - a Tableau szerveren mindig kell lennie egy _enabled_ _schedule_nak. Legalább egyet tartsunk meg a normál feliratkozók részére, és emellé vegyük föl saját egyedi _disabled_ _schedule_-unkat. 
+  - a Tableau szerveren mindig kell lennie egy *enabled* *schedule*nak. Legalább egyet tartsunk meg a normál feliratkozók részére, és emellé vegyük föl saját egyedi _disabled schedule_-unkat. 
 
-A _view_ feladata, hogy meghatározza az _alert_ adatait. A _subscription_ feladata meghatározni azt, hogy a mikor és milyen időközönként kerül ellenőrzésre a nézet. Az _alert_ csak akkor küldődik ki, ha a _view_ tartalmaz adatot.
+A *view* feladata, hogy meghatározza az *alert* adatait. A *subscription* feladata meghatározni azt, hogy a mikor és milyen időközönként kerül ellenőrzésre a nézet. Az *alert* csak akkor küldődik ki, ha a *view* tartalmaz adatot.
 
 ### Advanced Alert konfiguráció
 
