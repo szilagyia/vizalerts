@@ -81,7 +81,7 @@ Limitációk:
 
 #### Csatolmány egyedi fájlnevének beállítása
 
-A csatolmányok alapvető nevének szerkezete: `YYYYMMDDHHMMSSUUUUU\_[workbook]-[view].[kiterjesztés]`. Ezt felülírhatjuk URL paraméterben a **|filename=[fájlnév]** rész hozzáfűzésével. Pl.: VIZ\_CSV(AnnualReport/Overview|filename=2016 Annual Report). Ez csatolmányunknak a 2016 'Annual Report.csv' fájlnevet fogja a adni. 
+A csatolmányok alapvető nevének szerkezete: `YYYYMMDDHHMMSSUUUUU_[workbook]-[view].[kiterjesztés]`. Ezt felülírhatjuk URL paraméterben a **|filename=[fájlnév]** rész hozzáfűzésével. Pl.: VIZ\_CSV(AnnualReport/Overview|filename=2016 Annual Report). Ez csatolmányunknak a 2016 'Annual Report.csv' fájlnevet fogja a adni. 
 
 #### PDF dokumentumok összefűzése
 
