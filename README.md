@@ -93,4 +93,4 @@ Egyesített emaileket az **Email Consolidate ~** mező felvételével küldhetü
 
 ##### Egyesített emailek sorbarendezése
 
-Az **Email Sort Order ~** mező felvételével rendezhetjük sorba az egyesített emaileket. Bármilyen alfanumerikus karakter beírásával a program ezek szerint fogja az egy email _body_ba kerülő emaileket növekvő sorba rendezni. Pl.: 1,2,3 vagy a,b,c, vagy Lilla,Nóra,Orsolya.
+Az **Email Sort Order ~** mező felvételével rendezhetjük sorba az egyesített emaileket. Bármilyen alfanumerikus karakter beírásával a program ezek szerint fogja az egy email *body*ba kerülő emaileket növekvő sorba rendezni. Pl.: 1,2,3 vagy a,b,c, vagy Lilla,Nóra,Orsolya.
