@@ -43,7 +43,7 @@ A _view_ feladata, hogy meghatározza az _alert_ adatait. A _subscription_ felad
 
 ---
 
-\*: szükséges mező
+*: szükséges mező
 ~: opcionális mező
 
 > __MINDEN MEZŐNEK SZÓKÖZZEL KELL KEZDŐDNIE! A MEZŐK NEVÉT NEM SZABAD MEGVÁLTOZTATNI; BÁRMILYEN MÁS MEZŐT FIGYELMEN KÍVÜL HAGY A PROGRAM!__
@@ -89,7 +89,7 @@ Ha egy _alert_ egyszerre több PDF dokumentumot kap csatolmányként, felmerülh
 
 #### Egyesített emailek
 
-Egyesített emaileket az __Email Consolidate ~__ mező felvételével küldhetünk. Ennek akkor van értelme, ha egy _alert_ egyszerre több emailt generál, és nem szeretnénk a címzettek fiókját túlterhelni különálló levelek egymást követő tömeges kiküldésével. Ehhez az `Email Subject \*`, `Email To \*`, `Email From \*`, `Email CC ~`, és `Email BCC ~` mezőknek kell egyezniük.
+Egyesített emaileket az __Email Consolidate ~__ mező felvételével küldhetünk. Ennek akkor van értelme, ha egy _alert_ egyszerre több emailt generál, és nem szeretnénk a címzettek fiókját túlterhelni különálló levelek egymást követő tömeges kiküldésével. Ehhez az `Email Subject *`, `Email To *`, `Email From *`, `Email CC ~`, és `Email BCC ~` mezőknek kell egyezniük.
 
 ##### Egyesített emailek sorbarendezése
 
