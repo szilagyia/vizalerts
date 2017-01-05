@@ -8,7 +8,7 @@ Használat során felmerülhetnek az email kiküldéssel kapcsolatos változtat�
 |:--------|:---------|
 |smtp.serv|SMTP szerver neve|
 |smtp.address.from|Az a cím, melyről az emaileket kiküldjük. Ezt felülírhatja az Advanced Alertben beállított `from` mező|
-|smtp.address.to|A hibásal lefutott figyelmeztetésekről erre a címre küld hibajelentést|
+|smtp.address.to|A hibásan lefutott figyelmeztetésekről erre a címre küld hibajelentést|
 |smtp.alloweddomains|Itt kell megadni azokat a domaineket, ahova engedélyezni szeretnénk az email kiküldését. Pl: ha itt nem adjuk hozzá a `hotmail.com`domaint, akkor nem fognak kimenni az emailek, hiába paraméterezzük fel `hotmail.com`os címekkel az Alert workbookunkat|
 |smtp.ssl|`true`: A VizAlerts SSL titkosítást fog alkalmazni; `false`: nem lesz titkosítás|
 |smtp.user|Az SMTP szerver felhasználója; Ha nincs autentikáció akkor `null`|
@@ -20,7 +20,7 @@ Egy _alert_et két dolog határoz meg:
 
 - egy Tableau Serverre publikált _view_ (_trigger view_)
 - egy _subscription_ egy _disabled_ _Subscription Schedule_-ra
-  - a Tableau szerveren mindig kell lennie egy _enabled_ _schedule_nak. Legalább egyet tartsunk meg a normál feliratkozók részére, és emellé vegyük föl saját egyedi _disabled_ _schedule_-unkat.
+  - a Tableau szerveren mindig kell lennie egy _enabled schedule_-nak. Legalább egyet tartsunk meg a normál feliratkozók részére, és emellé vegyük föl saját egyedi _disabled_ _schedule_-unkat.
 - a _Subscription Schedule_ neve mindenképp az `Alert` szóval kezdődjön. Ha a _disabled_ _Subscription Schedule_ neve nem így kezdődik, akkor a VizAlerts nem fog értesítéseket küldeni.
 
 A _view_ feladata, hogy meghatározza az _alert_ adatait. A _subscription_ feladata meghatározni azt, hogy a mikor és milyen időközönként kerül ellenőrzésre a nézet. Az _alert_ csak akkor küldődik ki, ha a _view_ tartalmaz adatot.
@@ -30,7 +30,7 @@ A _view_ feladata, hogy meghatározza az _alert_ adatait. A _subscription_ felad
 |Mezőnév (`szóköz`zel kezdve!)|Szükséges?|Magyarázat|
 |:----------------------------|:---------|:---------|
 | Email Action \*|IGEN|=1, meghatározza, hogy ez egy Advanced Alert|
-| Email To \*|IGEN|Címzettek email címe `,` vagy `;` vagy ` ` karakterekkel elválasztva|
+| Email To \*|IGEN|Címzettek email címe `,` vagy `;` vagy ` ` karakterrel elválasztva|
 | Email from ~||Feladó email címe|
 | Email CC ~||CC email cím(ek)|
 | Email BCC ~||Blindcopy címzett(ek)|
@@ -42,9 +42,9 @@ A _view_ feladata, hogy meghatározza az _alert_ adatait. A _subscription_ felad
 | Email Consolidate ~||Nem kell értéket megadni itt, elég csak felvenni a mezőt. (Több email tartalmának egy emailben való kiküldésére egyesített szolgál)|
 | Email Sort Order ~||Bármilyen alfanumerikus érték (a-z+0-9) ami az egyesített emailek sorbarendezésére szolgál|
 
----
 
 \*: szükséges mező
+
 ~: opcionális mező
 
 > __MINDEN MEZŐNEK SZÓKÖZZEL KELL KEZDŐDNIE! A MEZŐK NEVÉT NEM SZABAD MEGVÁLTOZTATNI; BÁRMILYEN MÁS MEZŐT FIGYELMEN KÍVÜL HAGY A PROGRAM!__
