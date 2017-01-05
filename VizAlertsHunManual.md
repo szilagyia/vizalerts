@@ -86,7 +86,7 @@ A csatolmányok alapvető nevének szerkezete: `YYYYMMDDHHMMSSUUUUU\_[workbook]-
 
 #### PDF dokumentumok összefűzése
 
-Ha egy _alert_ egyszerre több PDF dokumentumot kap csatolmányként, felmerülhet az igény ezek összefűzésére egyetlen dokumentumban. Ezt az egyedi fájlnév mögé írt (__|filename__) írt __|mergepdf__ paraméterrel tudjuk megtenni. Pl.: VIZ\_PDF(VizAlertsDemo/Overview?Region=East|filename=EastSales|mergepdf) és VIZ\_PDF(VizAlertsDemo/Product?Region=East|filename=EastSales|mergepdf) egybe lesznek fűze az EastSales.pdf dokumentumban.
+Ha egy _alert_ egyszerre több PDF dokumentumot kap csatolmányként, felmerülhet az igény ezek összefűzésére egyetlen dokumentumban. Ezt az egyedi fájlnév mögé írt __|mergepdf__ paraméterrel tudjuk megtenni. Pl.: VIZ\_PDF(VizAlertsDemo/Overview?Region=East|filename=EastSales|mergepdf) és VIZ\_PDF(VizAlertsDemo/Product?Region=East|filename=EastSales|mergepdf) egybe lesznek fűze az EastSales.pdf dokumentumban.
 
 #### Egyesített emailek
 
